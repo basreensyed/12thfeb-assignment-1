@@ -1,0 +1,25 @@
+buns=80
+hairst=200
+icecre=90
+choco=70
+loti=250
+cname=input('enter name:')
+cphno=int(input('enter phno:') 
+bc=int(input('enter no of buns:'))
+hsc=int(input('enter no of hai:'))
+ic=int(input('enter no of icecr:'))
+cc=int(input('enter no of choco:'))
+lc=int(input('enter no of loti:'))
+bill=(buns*bc)+(hairst*hsc)+(icecre*ic)+(choco*cc)+(loti*lc)
+if bill>5000 :
+   disc=bill*10/100
+   tax=bill*10/100
+elif bill>3000 :
+   disc=bill*8/100
+   tax=bill*10/100
+elif bill>2000 :
+   disc=bill*5/100
+   tax=bill*18/100
+elif bill>1000 :
+   disc=bill*3/100
+   tax=bill*18/100
